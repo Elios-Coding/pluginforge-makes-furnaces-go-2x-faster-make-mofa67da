@@ -1,0 +1,13 @@
+name: FastFurnace
+version: 1.0.0
+main: com.pluginforge.generated.FastFurnace
+api-version: 1.19
+commands:
+  fastfurnace:
+    description: Configure FastFurnace settings.
+    usage: /fastfurnace [on|off|number]
+    permission: fastfurnace.admin
+permissions:
+  fastfurnace.admin:
+    description: Allows access to the FastFurnace command.
+    default: op
